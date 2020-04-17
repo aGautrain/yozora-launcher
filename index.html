@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>YozoraLauncher</title>
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  
+	
+	<video id="background-video" autoplay loop>
+		<source src="Launcher.mp4"type="video/mp4">
+	</video>
+	
+	<div class="background">
+	
+	<video controls class="tutorials" id="tuto">
+	   <source src="Tutoriel_Francais.mp4" type="video/mp4">
+	 </video>
+	
+	<div class="background-center">
+	
+	<h3>- 夜至 -</h3>
+	<h1>YOZORA</h1>
+  
+	<!--<img src="yozora-splash.png" alt="" width="800" />-->
+	
+	<button id="btn-tutoFr">Lancer le tutoriel (fr)</button>
+	<button id="btn-tutoEng">Start tutorial (eng)</button>
+	<button id="btn-StartGame">Jouer au jeu</button>
+	
+	<div id="copyrights">Fait par Samy Manane @2020</div>
+	
+	 
+	
+	</div>
+	</div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

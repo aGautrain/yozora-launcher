@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Elite Danger';
+    src: url('./elite_danger/EliteDanger.woff2') format('woff2'),
+        url('./elite_danger/EliteDanger.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Elite Danger';
+    src: url('./elite_danger/EliteDangerBoldItalic.woff2') format('woff2'),
+        url('./elite_danger/EliteDangerBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
