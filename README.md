@@ -55,11 +55,10 @@ You are expected to provide
 * /Launcher.mp4  
 * /Demo
 
-Game must be provided in /Demo folder, as you can see in /preload.js, line 7,
-> let gamePath = "resources/app/Demo/DemoProject.exe";
+Game must be provided in /Demo folder, for executing it launcher will search
+for a file called DemoProject.exe on your hard drive
 
-That's the .exe which will be executed by launcher !! (change it if you need)
-
+If game is not well located, when clicking PLAY button, nothing will happen
 
 # Build .exe
 
