@@ -1,4 +1,4 @@
-# electron-quick-start
+# yozora-launcher
 
 **Clone and run for a quick way to see Electron in action.**
 
@@ -20,16 +20,15 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/aGautrain/yozora-launcher
 # Go into the repository
-cd electron-quick-start
+cd yozora-launcher
 # Install dependencies
 npm install
 # Run the app
 npm start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 ## Resources for Learning Electron
 
@@ -43,3 +42,18 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 ## License
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
+
+
+# Project structure
+
+For size convenience, some files have not been uploaded in this repository.
+
+You are expected to provide
+
+/Tutorial_English.mp4
+/Tutoriel_Francais.mp4
+/Launcher.mp4
+/yozora-win32-x64 (folder containing the game)
+
+
+# Build .exe
