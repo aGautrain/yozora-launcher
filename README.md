@@ -46,14 +46,28 @@ npm start
 
 # Project structure
 
-For size convenience, some files have not been uploaded in this repository.
+For size convenience, some files have not been uploaded in this repository.  
 
-You are expected to provide
+You are expected to provide  
 
-/Tutorial_English.mp4
-/Tutoriel_Francais.mp4
-/Launcher.mp4
-/yozora-win32-x64 (folder containing the game)
+* /Tutorial_English.mp4  
+* /Tutoriel_Francais.mp4  
+* /Launcher.mp4  
+* /Demo
+
+Game must be provided in /Demo folder, as you can see in /preload.js, line 7,
+> let gamePath = "resources/app/Demo/DemoProject.exe";
+
+That's the .exe which will be executed by launcher !! (change it if you need)
 
 
 # Build .exe
+
+Don't forget to run following commands :  
+* npm install
+* npm install electron-packager -g
+
+
+> electron-packager . Yozora --overwrite  
+
+A folder Yozora-win32-x64 containing Yozora.exe will be created !
